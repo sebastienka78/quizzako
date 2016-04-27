@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="be.coworkers.quizzme.view.AddQuizzActivity">
+    <TextView
+        android:id="@+id/addQuizzTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editTextQuizzTitleTitle"
+        style="@style/TextDefaultStyle"
+        />
+
+    <EditText
+        android:id="@+id/titleQuizzEditText"
+        android:hint="@string/editTextQuizzTitleHint"
+        android:layout_width="210px"
+        android:paddingLeft="15px"
+        android:inputType="textFilter"
+        android:layout_height="wrap_content"
+        style="@style/EditTextDefaultStyle" />
+
+    <TextView
+        android:id="@+id/addQuizzthemeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editTextQuizzThemesTitle"
+        style="@style/TextDefaultStyle"
+        />
+
+    <EditText
+        android:id="@+id/themeQuizzEditText"
+        android:hint="@string/editTextQuizzThemesHint"
+        android:layout_width="210px"
+        android:paddingLeft="15px"
+        android:inputType="textFilter"
+        android:layout_height="wrap_content"
+        style="@style/EditTextDefaultStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/addQuestionButtonLabel"
+            android:text="@string/textViewAddQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextDefaultStyle"
+            />
+
+        <Button
+            android:id="@+id/addQuestionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_add"
+            />
+
+    </LinearLayout>
+</LinearLayout>

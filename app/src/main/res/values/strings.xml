@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Quizzakko</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_quizz">AddQuizzActivity</string>
+
+    <string name="editTextQuizzTitleTitle">Titre</string>
+    <string name="editTextQuizzThemesTitle">Themes</string>
+    <string name="textViewAddQuestion">Ajouter une question</string>
+
+    <string name="editTextQuizzTitleHint">Ex: Révision 17/02/2016</string>
+    <string name="editTextQuizzThemesHint">Ex: Histoire, Napoléon, &#8230;</string>
+
+    <string name="questionTypeButtonLabel">Type de question</string>
+    <string name="questionAddImageButtonLabel">Ajouter une image</string>
+
+    <string name="mainMenuBackButtonText">Back</string>
+    <string name="mainMenuAddButtonText">Add</string>
+    <string name="mainMenuEditButtonText">Save</string>
+
+
+    <string name="editTextQuestionTitleHint">Ajouter une question</string>
+
+    // HINT
+    <string name="word_response_hint">Ajouter un mot, une phrase</string>
+    <string name="numeric_response_hint">Ajouter un nombre</string>
+    <string name="date_response_hint">Ajouter une date</string>
+    <string name="truefalse_response_hint">Choisisser Vrai ou Faux</string>
+    <string name="list_response_hint">Ajouter une réponse</string>
+    <string name="ordering_response_hint">Ajouter une réponse</string>
+    <string name="mchoice_response_hint">Ajouter une réponse</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Home
+    <string name="createQuizzButtonLabel">Créer un Quizz</string>
+    <string name="myQuizzButtonLabel">Mes Quizz</string>
+    <string name="challengeButtonLabel">Challenge</string>
+    <string name="settingsButtonLabel">Paramètres</string>
+
+    // Menu
+    <string name="questionTypeMenuWord">Mot</string>
+    <string name="questionTypeMenuNumeric">Chiffre</string>
+    <string name="questionTypeMenuTrueFalse">Vrai / Faux</string>
+    <string name="questionTypeMenuDate">Date</string>
+    <string name="questionTypeMenuList">Liste</string>
+    <string name="questionTypeMenuOrdering">Liste Ordonnée</string>
+    <string name="questionTypeMenuMultipleChoice">Choix Multiple</string>
+
+
+    // Accebility
+    <string name="addReponseButton">Ajouter une réponse</string>
+
+</resources>

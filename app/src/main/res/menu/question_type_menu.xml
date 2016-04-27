@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/buttonWord"
+            android:orderInCategory="0"
+            android:title="@string/questionTypeMenuWord" />
+
+    <item android:id="@+id/buttonNumeric"
+        android:orderInCategory="1"
+          android:title="@string/questionTypeMenuNumeric" />
+
+    <item android:id="@+id/buttonTrueFalse"
+        android:orderInCategory="2"
+          android:title="@string/questionTypeMenuTrueFalse" />
+
+    <item android:id="@+id/buttonDate"
+        android:orderInCategory="3"
+          android:title="@string/questionTypeMenuDate" />
+
+    <item android:id="@+id/buttonList"
+        android:orderInCategory="4"
+          android:title="@string/questionTypeMenuList" />
+
+    <item android:id="@+id/buttonOrdering"
+        android:orderInCategory="5"
+          android:title="@string/questionTypeMenuOrdering" />
+
+    <item android:id="@+id/buttonMultipleChoice"
+        android:orderInCategory="6"
+          android:title="@string/questionTypeMenuMultipleChoice" />
+
+</menu>
